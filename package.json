@@ -4,6 +4,7 @@
   "description": "A simple boilerplate for using node and typescript together.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.ts",
     "test": "jest",
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
